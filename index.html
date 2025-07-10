@@ -4,9 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simone Cervini</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Hello, you!</h1>
-    <p>WIP portfolio website.</p>
+
+    <header>
+        <nav>
+            <a href="#" class="logo">Simone Cervini</a>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://github.com/Cervini" target="_blank">GitHub</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Hi, I'm Simone Cervini</h1>
+                <p>A Computer Science Engineering graduate with a versatile skill set, from web development to hardware design.</p>
+                <!-- <a href="#projects" class="cta-button">View My Work</a> -->
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm a recent graduate in Computer Science Engineering with a passion for building software solutions. My experience ranges from developing web applications with <strong>Python, C, Java, JavaScript, and React</strong>, to hardware design with <strong>VHDL on FPGAs</strong>. I am a quick learner, and I'm always eager to tackle new challenges and technologies.</p>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-title-container">
+                        <img src="assets/broom.png" alt="Organizer Project" class="project-logo">
+                        <h3>Organizer [Python]</h3>
+                    </div>
+                    <p>Automatic Downloads folder organizer with system tray GUI. Create custom rules, drag-and-drop reordering, and smart file sorting for Windows/macOS/Linux.</p>
+                    <a href="https://github.com/Cervini/organizer" class="project-link">View on GitHub</a>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-title-container">
+                        <img src="assets/d20.png" alt="VTT Project" class="project-logo">
+                        <h3>Simple VTT [JavaScript | React]</h3>
+                    </div>
+                    <p>A university project that replicates the core functionality of the popular virtual tabletop, Owlbear Rodeo. This application allows users to upload maps and tokens, and interact with them in real-time, providing a simple yet powerful tool for online TTRPG sessions.</p>
+                    <a href="https://github.com/Cervini/vtt" class="project-link">View on GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <p>I'm currently open to new opportunities. Feel free to reach out!</p>
+            <a href="mailto:simonecervini99+web@gmail.com" class="cta-button">Email Me</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Simone Cervini. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
