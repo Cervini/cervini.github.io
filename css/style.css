@@ -119,9 +119,14 @@ h2 {
 }
 
 /* About Section */
+#about {
+    text-align: center;
+}
+
 #about p {
     max-width: 800px;
     margin: 0 auto;
+    margin-bottom: 1.5rem;
     text-align: center;
     font-size: 1.1rem;
 }
@@ -165,8 +170,8 @@ h2 {
 .project-logo {
     width: 40px;
     height: 40px;
-    border-radius: 10%; /* Makes the logo circular */
-    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 10%; /* Round edges */
+    object-fit: cover;
     margin-right: 1rem; /* Space between logo and title */
     background-color: #4a5568; /* A fallback background color */
 }
@@ -177,7 +182,7 @@ h2 {
 }
 
 .project-card p {
-    flex-grow: 1; /* Pushes the link to the bottom */
+    flex-grow: 1;
 }
 
 .project-card .project-link {
@@ -204,6 +209,13 @@ footer {
 @media (max-width: 768px) {
     header {
         padding: 1rem;
+        /* Add a transition for a smooth animation */
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .header-hidden {
+        /* This moves the header up and out of the viewport */
+        transform: translateY(-100%);
     }
 
     nav {
