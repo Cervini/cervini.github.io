@@ -50,6 +50,14 @@ nav {
     font-size: 1.5rem;
     font-weight: 700;
     color: #f7fafc;
+    display: flex;
+    align-items: center; /* This vertically aligns the logo and text */
+    gap: 10px; /* This adds a small space between the logo and the text */
+}
+
+.logo img {
+    height: 1.2em; /* This makes the logo's height match the text size */
+    width: auto; /* This maintains the logo's aspect ratio */
 }
 
 nav ul {
@@ -90,7 +98,7 @@ h2 {
 #hero {
     text-align: center;
     padding: 6rem 0;
-    border-top: 1px solid #4a5568; /* Darker border */
+    border-top: 1px solid #4a5568;
 }
 
 .hero-content h1 {
@@ -106,7 +114,7 @@ h2 {
 
 .cta-button {
     background-color: #ed4e4e;
-    color: #1a202c; /* Dark text on light button */
+    color: #1a202c;
     padding: 0.8rem 1.5rem;
     border-radius: 5px;
     font-weight: 700;
@@ -139,7 +147,7 @@ h2 {
 }
 
 .project-card {
-    background: #2d3748; /* Dark card background */
+    background: #2d3748;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
     overflow: hidden;
@@ -164,7 +172,7 @@ h2 {
 .project-title-container {
     display: flex;
     align-items: center;
-    margin-bottom: 1rem; /* Adjust as needed */
+    margin-bottom: 1rem;
 }
 
 .project-logo {
