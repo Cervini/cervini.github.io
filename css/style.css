@@ -213,6 +213,11 @@ footer {
     color: #a0aec0;
 }
 
+.status-wip {
+  color: #eab308; /* A nice yellow, feel free to change */
+  font-weight: bold;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     header {
